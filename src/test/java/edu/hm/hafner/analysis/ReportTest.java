@@ -13,6 +13,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 
 import org.eclipse.collections.impl.block.factory.Predicates;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import edu.hm.hafner.analysis.assertions.SoftAssertions;
@@ -28,7 +29,6 @@ import static java.util.Arrays.*;
  * @author Marcel Binder
  * @author Ullrich Hafner
  */
-@SuppressWarnings("PMD.GodClass")
 class ReportTest extends SerializableTest<Report> {
     private static final String SERIALIZATION_NAME = "report.ser";
 
